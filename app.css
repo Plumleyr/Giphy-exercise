@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(53, 48, 48);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+#giphyform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#removeBtn{
+    background-color:rgb(218, 87, 87);
+}
+
+#searchBtn{
+    background-color: rgb(57, 148, 77);
+}
+
+input, button{
+    padding: 10px;
+    margin: 3px;
+    border-radius: 3px;
+}
+
+button{
+    color: white;
+    border: 2px solid white;
+}
+
+input{
+    background-color: #eee;
+    border: 2px solid black;
+}
+
+#removeBtn:hover{
+    background-color: rgb(104, 3, 3);
+    color: black;
+    border: 2px solid rgb(44, 79, 156);
+}
+
+#searchBtn:hover{
+    background-color: rgb(35, 94, 12);
+    color: black;
+    border: 2px solid rgb(44, 79, 156);
+}
